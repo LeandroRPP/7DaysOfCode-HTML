@@ -7,6 +7,9 @@ Escopo desde projeto: **"Uma empresa de TI quer desenvolver uma página destinad
 
 Todos os dias você recebe um e-mail contendo as informações do que será feito naquele dia até a conclusão do projeto.
 
+## Link da página
+ [Desafio HTML e CSS 7 DaysOfCode - Alura](https://7-days-of-code-html.vercel.app/)
+
 ## Os pontos de destaque que foram aprendidos nesse projeto, são:
 - Utilização de FlexBox e Grid
 - Boas práticas de responsividade
