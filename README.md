@@ -12,7 +12,7 @@ Todos os dias você recebe um e-mail contendo as informações do que será feit
 - Boas práticas de responsividade
 - Padrão BEM
 
-  ## Ferramentas utilizadas:
+## Ferramentas utilizadas:
   - Visual Studio Code
   - Navegador OperaGX
 
