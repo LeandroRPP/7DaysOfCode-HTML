@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+:root{
+
+    --color-red: #8E2424;
+    --color-gray: #667085;
+    --color-white: #FFFFFF;
+
+    --primary-font: 'Inter', sans-serif;
+}
+
+header{
+    margin: 18px 80px 18px 80px;
+}
+
+body{
+    box-sizing: border-box;
+}
+.container{
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    font-family: var(--primary-font);
+    color: var(--color-gray)
+}
+
+ul{
+    list-style: none;
+}
+
+.lista{
+    gap: 2rem;
+    padding-right: 23.75rem;
+}
+
+.login{
+    gap: 0.75rem;
+}
+
+.cadastrar{
+    padding: 10px 18px 10px 18px;
+    border-radius: 8px;
+    background-color: var(--color-red);
+    color: var(--color-white);
+}
+
+.section__about{
+    text-align: center;
+    font-family: var(--primary-font);
+}
+
+.section__about__subtitle{
+    padding-top: 6rem;
+    padding-bottom: 1.5rem;
+    color: var(--color-red);
+    font-size: 1rem;
+}
+
+.section__about__title{
+    font-size: 3rem;
+    padding-bottom: 1.5rem;
+}
+
+.section__about__span{
+    display: inline-block;
+    font-size: 1.25rem;
+    line-height: 30px;
+    color: var(--color-gray);
+    padding-bottom: 6rem;
+    width: 42%;
+}
+
+.section__about_statics_main{
+    display: grid;
+    grid-template-columns: repeat(4,1fr);
+    margin: 0 7rem;
+    margin-bottom: 12rem;
+    gap: 2rem;
+}
+
+.section__about_statics{
+    display: inline-block;
+    text-align: start;
+}
+
+.section__about_statics h2{
+    color: var(--color-red);
+    font-size: 3.75rem;
+    padding-bottom: 0.75rem;
+}
+
+.section__about_statics h3{
+    font-size: 1.125rem;
+    padding-bottom: 0.5rem;
+}
+
+.section__about_statics span{
+    font-size: 1rem;
+    color: var(--color-gray);
+}
+
+.section__jobs{
+    text-align: center;
+    font-family: var(--primary-font);
+}
+
+.section__jobs h2{
+    display: inline-block;
+    color: var(--color-red);
+    font-weight: 500;
+    font-size: 0.875rem;
+    background-color: rgba(142, 36, 36, 0.108);
+    border-radius: 1rem;
+    padding: 4px 12px;
+}
+
+.section__jobs h3{
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin: 1.25rem 0;
+}
+
+.section__jobs span{
+    display: block;
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--color-gray);
+    margin-bottom: 4rem;
+}
+
+.section__jobs img{
+    width: 80%;
+}
+
+.section__jobs__list{
+    font-family: var(--primary-font);
+    margin: 0 21rem;
+}
+
+.section__jobs__list h2{
+    font-size: 1.25rem;
+    font-weight: 500;
+    display: flex;
+    padding-top: 4rem;
+    padding-bottom: 2rem;
+}
+
+.section__jobs__list__div{
+    padding: 24px;
+    border-radius: 1rem;
+    border: 1px solid #bcbcc0;
+    margin-bottom: 1.5rem;
+}
+
+.section__jobs__list__div h3{
+    font-size: 1.125rem;
+    font-weight: 500;
+    padding-bottom: 2rem;
+}
+
+.section__jobs__list__div p{
+    display: inline-flex;
+    padding-right: 1.5rem;
+    font-size: 1rem;
+    color: var(--color-gray);
+}
+
+.section__comments{
+    text-align: center;
+    font-family: var(--primary-font);
+    margin: 0 7rem;
+    border-radius: 16px;
+    background: rgba(195, 25, 25, 0.067);
+    padding: 4rem;
+}
+
+.section__comments h2{
+    color: var(--color-red);
+    font-size: 0.875rem;
+    font-weight: 600;
+    margin-bottom: 1rem;
+}
+
+.section__comments h3{
+    font-size: 2.25rem;
+    font-weight: 500;
+    margin-bottom: 2rem;
+}
+
+.section__comments p{
+    font-size: 1rem;
+    font-weight: 500;
+    margin-top: 1rem;
+}
+
+.section__comments span{
+    color: var(--color-gray);
+    font-size: 0.875rem;
+}
+
+.footer{
+    font-family: var(--primary-font);
+    text-align: center;
+    padding: 6rem 0;
+    margin-top: 6rem;
+    background:#F9FAFB;
+}
+
+.footer h2{
+    font-size: 2.25rem;
+    font-weight: 600;
+    margin-bottom: 1.25rem;
+}
+
+.footer span{
+    font-size: 1.25rem;
+    font-weight: 400;
+    color: var(--color-gray);
+    display: block;
+    margin-bottom: 2.5rem;
+    
+}
+
+.footer input{
+    border-radius: 0.5rem;
+    border: 1px solid #D0D5DD;
+    background-color: var(--color-white);
+    padding: 0.75rem 2rem;
+    margin-right: 1rem;
+}
+
+.footer a{
+    text-decoration: none;
+    padding: 10px 20px;
+    border-radius: 8px;
+    border: 1px solid var(--color-red);
+    background: var(--color-red);
+    color: var(--color-white);
+    font-size: 1rem;
+}
+
+.footer p{
+    color: var(--color-gray);
+    font-size: 1rem;
+    font-weight: 400;
+    margin-top: 2rem;
+}
